@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/968525_dalmatian-backgrounds-wallpapers-cave_1600x1066_h.jpg);
+    color: goldenrod;
+    font-size: 16px;
+  }
+  
+  h1, h2 {
+      font-variant: small-caps;
+      padding: 10px 5px 10px 5px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    min-height: 400px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .pickOptions {
+      margin: 10px 0px 30px 0px;
+  }
+
+  .anyBreed {
+      margin-top: 20px;
+  }
+
+  label, p{
+      font-weight: bold;
+  }
+  
+
+
+.hidden {display: none;}
+
+.show {display: block;}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: solid;
+  cursor: pointer;
+}
+/*
+input[type = number] {
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 16px;
+    border: solid;
+    cursor: pointer;
+  }
+*/
+input[type = submit] {
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: none;
+}
+
+
+input[type = submit]:hover {
+  background-color: #42352C;
+}
+
+
+
+/*  div #slider, ul slides, variable number of li have images slide */
+.slider {
+    background-color: #3D3027;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slides {
+    list-style-type: none;
+    text-align: center; 
+    padding: 10px 10px 10px 10px;
+}
+
+.slides img {
+    max-width: 100%;
+    height: auto;
+}
